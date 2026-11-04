@@ -2494,3 +2494,31 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+/* Membuat deskripsi menjadi rata kiri dan kanan */
+.about .content p.fst-italic {
+    text-align: justify;
+}
+
+/* Mengatur posisi poin-poin */
+.about .content ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding-bottom: 10px;
+}
+
+/* Mengatur posisi ikon centang */
+.about .content ul li i {
+    flex: 0 0 20px;
+    width: 20px;
+    margin: 2px 0 0 0;
+    line-height: 1.5;
+}
+
+/* Mengatur tulisan agar sejajar setelah ikon */
+.about .content ul li span {
+    flex: 1;
+    min-width: 0;
+    display: block;
+    text-align: justify;
+}
