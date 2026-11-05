@@ -2529,3 +2529,21 @@ section,
 .scroll-top {
     display: none !important;
 }
+/* Memusatkan logo dan nama perusahaan pada header */
+@media (max-width: 1199px) {
+    #header .container-fluid {
+        justify-content: center !important;
+    }
+
+    #header .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #header .navmenu {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
